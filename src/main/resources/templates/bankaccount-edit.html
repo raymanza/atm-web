@@ -26,12 +26,16 @@
         </div>
 
         <div class="form-group">
-            <label for="inputBalance">Balance</label>
-            <input type="text" th:field="*{balance}" class="form-control" id="inputBalance">
+            <label for="amount">Amount</label>
+            <input type="text" name="amount" class="form-control" id="amount">
         </div>
 
         <div class="form-group">
-            <input type="submit" class="btn btn-primary">
+            <button type="submit" class="btn btn-primary" value="withdraw" name="btn">withdraw</button>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary" value="deposit" name="btn">deposit</button>
         </div>
 
     </form>
